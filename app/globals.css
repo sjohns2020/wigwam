@@ -24,4 +24,10 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+main {
+  border: solid green 2px;
 }
