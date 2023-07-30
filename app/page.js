@@ -1,9 +1,12 @@
+import MainLayout from "./(components)/mainLayout";
+
 
 
 export default function Home() {
   return (
-    <main>
-        <h1>Home page</h1>
-    </main>
+    <MainLayout>
+      <h1>Home page</h1>
+    </MainLayout>
+
   )
 }
