@@ -19,7 +19,8 @@
 body {
   color: rgb(var(--foreground-rgb));
   background-image: url(../public/wbackground.jpeg);
-
+  background-size: cover;
+  background-position: center;
   /* background: linear-gradient(
       to bottom,
       transparent,
